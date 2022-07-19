@@ -1,0 +1,14 @@
+[package]
+name = "lifec_azure"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lifec = { git = "https://github.com/juliusl/lifec.git", branch = "main" }
+azure_core = { version = "0.3.0", git = "https://github.com/Azure/azure-sdk-for-rust" }
+azure_storage = { version = "0.4.0", git = "https://github.com/Azure/azure-sdk-for-rust" }
+azure_storage_blobs = { version = "0.4.0", git = "https://github.com/Azure/azure-sdk-for-rust" }
+futures = "0.3"
+tokio = "1.19.2"
